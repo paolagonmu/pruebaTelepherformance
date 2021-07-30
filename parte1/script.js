@@ -16,7 +16,6 @@ function calcular(){
   
         var startdate = new Date(fecha);
          var enddate = new Date('2021-12-31');
-          console.log(actualDate);
           
           var diff = enddate.getTime() - startdate.getTime();
             todaydate = Math.round(diff / (1000 * 60 * 60 * 24));
